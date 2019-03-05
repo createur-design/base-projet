@@ -10,8 +10,8 @@
     <header>
         <nav>
             <div class="btMenu" id="btMenu">Burger Menu</div>
-            <ul>
-                <li <?php if($page === "accueil"){echo "class='active";} ?>><a href="index.php">Accueil</a></li>
+            <ul class="nav" id="nav">
+                <li <?php if($page === "accueil"){echo "class='active'";} ?>><a href="index.php">Accueil</a></li>
                 <li><a href="#">lien2</a></li>
                 <li><a href="#">lien3</a></li>
                 <li><a href="#">lien4</a></li>
